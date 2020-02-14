@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Emanuele Bertuol Online CV</title>
+</head>
+  <style>
+    
+    .InfoPerso, .EspLav, .IntestazioniMansioni{
+      
+      font-weight: bold;  } 
+    .SubIntestazioni {
+      font-family: cursive;
+    }
+
+  </style>
+  
+  
+<body>
+  <h1> Emanuele Bertuol CV</h1>
+  <img src="">
+  
+  <p class="InfoPerso"> Informazioni Personali</p>
+  <ul>
+    <li>Galleria Ognissanti 10, 35129, Padova (Italia)</li>
+    <li>+39 3401522372</li>
+    <li>emanuelebertuol@gmail.com</li>
+    <li>Data di nascita: 21/08/1997</li>
+    <li>Nazionalità: Italiana
+  </ul>
+  
+  <p>Nato a Suzzara, in provincia di Mantova,<br>
+    mi sono trasferito all'età di 2 anni a Malo,<br>
+    in provincia di Vicenza, dove ho trascorso <br>
+    la prima parte della mia infanzia.<br>
+    Da sempre molto curioso ed intraprendente,<br>
+    ho sviluppato una passione per la cucina<br>
+    che mi ha portato alla scelta della scuola <br>
+    alberghiera. 
+  </p>
+  
+  <h4 class="EspLav"> Esperienze Lavorative:
+    <ul>
+      
+      <a href="#HotelBelvedere"><li>Hotel Belvedere (10/2018-06/2019)</li></a>
+      
+      <a href="#AzAgrAidi"><li>Azienda Agricola "Aidi" (04/2018-09/2018)</li></a>
+      
+      <a href="#HotelVillaLaguna"><li>Hotel "Villa Laguna" (06/2015-09/2015)</li></a>
+      
+      <a href="#RistoranteLaFavellina"><li>Ristorante "La Favellina" (03/2014- 06/2015)</li></a>
+      
+      
+    </ul>
+    
+    <h id="HotelBelvedere">Hotel "Belvedere"</h>
+    
+    <p class="IntestazioniMansioni">Mansioni Svolte</p>
+    
+    <p class="SubIntestazioni">Servizio di sala:</p>
+    
+    <ul>
+      
+      <li>Allestimento della sala</li>
+      
+      <li>Accoglienza dei clienti</li>
+      
+      <li>Presa dell'ordinazione</li>
+      
+      <li>Servizio di bevande/vivande al tavolo</li>
+      
+      <li>Sbarazzo dei tavoli e riassetto della <br>
+        
+        sala per il turno del giorno successivo</li>
+      
+      <li>Pulizia varie e riordinamento della cucina</li>
+      
+    </ul>
+    
+    <p class="SubIntestazioni">Servizio delle colazioni</p>
+    
+    <ul>
+      
+      <li>Allestimento del buffet mattutino</li>
+      
+      <li>Servizio di caffetteria ai tavoli</li>
+      
+      <li>Mantenimento del buffet, sbarazzo e riassetto</li>
+      
+    </ul>
+    
+    <p class="SubIntestazioni">Reception</p>
+    
+    <ul>
+      
+      <li>Accoglienza dei clienti in hotel,<br>
+        presentazione dei principali servizi offerti <br>
+        e degli orari dell'albergo</li>
+      
+      <li>Accompagnamento dei clienti presso la propria
+      <br>stanza, aiuto trasporto bagagli</li>
+      
+      <li>Presa di prenotazione camere</li>
+      
+      <li>Check-in e check-out</li>
+      
+      <li>Emissione di fatture/ricevute per i clienti <br>
+      incasso dei pagamenti</li>
+      
+      <li>Inserimento e registrazione dei dati dei clienti <br>
+      nell'apposito gestionale</li>
+      
+      
+    </ul>
+    <p class="SubIntestazioni">Tutto fare..</p>
+    
+    <ul>
+      
+      <li>Manasioni di pulizia e riassetto della cucina</li>
+      
+      <li>Mansioni di lavanderia, come lavaggio, asciugatura ecc...</li>
+      
+      <li>Mansioni di preparazione dolciumi per le colazioni,<br>
+        come torte, crostate, pancake</li>
+      
+      <li>Preparazione della linea per le colazioni</li>
+      
+    </ul>
+    
+    <h id="AzAgrAidi"> Azienda Agricola "Aidi"</h>
+    <p class="IntestazioniMansioni">Mansioni Svolte</p>
+    <ul>
+      <li>Allestimento bancone dei prodotti</li>
+      <li>Mantenimento della pulizia dei piani di lavoro</li>
+      <li>Vendita al dettaglio di prodotti caseari ed insaccati</li>
+      <li>Gestione della cassa</li>
+      <li>Inventario prodotti</li>
+      <li>Trasporto dei prodotti freschissimi in azienda</li>
+    </ul>
+    
+    <h id="HotelVillaLaguna"> Hotel "Villa Laguna" </h>
+    <p>Durante il primo mese di lavoro (stage di scuola), ho avuto modo di <br>
+      svolgere diverse mansioni tra i vari reparti dell'hotel <br>
+      (servizio delle colazioni, servizio di sala e servizio di bar).<br>
+      Dal secondo mese fino a fine stagione, le mansioni erano principalmente <br>
+      inerenti al lounge bar</p>
+    
+    <p class="IntestazioniMansioni">Mansioni Svolte</p>
+    <p class="SubIntestazioni">Servizio delle colazioni</p>
+    
+    <ul>
+      <li>Preparazione dei coperti di sala</li>
+      <li>Allestimento e mantenimento del buffet</li>
+      <li>Servizio di caffetteria</li>
+      <li>Preparazione della linea per il giorno successivo, <br>
+        più preparazione dei prodotti freschi per la giornata</li>
+    </ul>
+    
+    <p class="SubIntestazioni">Servizio di sala</p>
+    <ul>
+      <li>Allestimento della sala e dei coperti</li>
+      <li>Accoglienza dei clienti</li>
+      <li>Servizio delle bevande ai tavoli e consegna del menù</li>
+      <li>Servizio delle vivande al tavolo, sbarazzo e riallestimento</li>
+    </ul>
+        
+        <p class="SubIntestazioni">Servizio di bar</p>
+        
+        <ul>
+          <li>Accoglienza del cliente, consegna del menù e presa dell'ordine</li>
+          <li>Preparazione della linea</li>
+          <li>Preparazione dei cocktail, dal più classico spritz ai principali <br>
+            cocktail internazionali IBA</li>
+          <li>Gestione del magazzino ed inventariato prodotti</li>
+        </ul>
+    
+    <h id="RistoranteLaFavellina"> Ristorante "La Favellina"</h>
+    
+    <p class="IntestazioniMansioni">Mansioni Svolte</p>
+    
+    <ul>
+      <li>Preparazione completa della sala, dallo scheletro dei tavoli <br>
+        ai coperti ed eventuali addobbi</li>
+      <li>Servizio al tavolo come porta piatti per compagnie come matrimoni, <br>
+        cresime, battesimi ecc...</li>
+      <li>Servizio di bevande, pulizia, allestimento e mantenimento dei buffet</li>
+      <li>Utilizzo della macchina per la preparazione della caffetteria</li>
+      <li>Varie mansioni di pulizia e riordinamento dei tavoli nella sala</li>
+    </ul>
+      
+        
