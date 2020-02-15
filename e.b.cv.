@@ -6,40 +6,164 @@
 </head>
   <style>
     
-    .InfoPerso, .EspLav, .IntestazioniMansioni{
+    .InfoPerso {
       
-      font-weight: bold;  } 
-    .SubIntestazioni {
-      font-family: cursive;
+      font-size: 38px;
+      font-weight: bold;
+      
     }
+    
+    .EspLavDiv {
+      
+      position: absolute;
+      top: 300px;
+      right: 10px;
+      width: 50%;
+      
+    }
+    
+    .InfoPersoDiv {
+      
+      position: absolute;
+      top: 68px;
+      right: 10px;
+      background-color: rgb (0, 153, 0);    
+      width: 50%;
+      
+    }
+    
+    .TitoloeFoto {
+      
+      width:50%;
+      
+    }
+    .EspLav {
+            font-size: 37px;
+            font-weight: bold;
+    }
+    .IntestazioniMansioni{
+      
+      font-weight: bold;
+
+    
+    } 
+    
+    .SubIntestazioni {
+      
+      font-style: italic;
+      
+    }
+    
+    .Titolo {
+      
+      font-size: 30px;
+      
+    }
+    
+    .lista1 {
+      
+      font-size: 20px;
+      
+    }
+    
+    .lista2{
+      
+      font-size: 20px;
+      
+    }
+    
+    .biografia{
+      
+      font-size: 25px;
+      
+    }
+    
+    .testobio{
+      
+      font-size: 20px;
+      font-style: italic;
+      
+    }
+    
+    #HotelBelvedere{
+      
+      font-size: 22px;
+      font-weight: bold;
+      
+    }
+    
+    #AzAgrAidi {
+      
+      font-size: 22px;
+      font-weight: bold;
+      
+    }
+    
+    #HotelVillaLaguna {
+      
+      font-size: 22px;
+      font-weight: bold;
+      
+    }
+    
+    #RistoranteLaFavellina {
+      
+      font-size: 22px;
+      font-weight: bold;
+      
+    }
+    body {background-color: rgb(255, 255, 179)}
 
   </style>
   
   
 <body>
-  <h1> Emanuele Bertuol CV</h1>
-  <img src="">
+  <div class="TitoloeFoto">
+  <h1><span class="Titolo"> Emanuele Bertuol CV</span></h1>
+  <img src="https://s.sbito.it/images/06/06630b7e-96a4-4014-ade0-7c70d9c4016e.jpg">
+    </div>
   
-  <p class="InfoPerso"> Informazioni Personali</p>
-  <ul>
+  <div class="InfoPersoDiv">
+  
+  <h class="InfoPerso"> Informazioni Personali</h>
+  <div class="lista1">
+    <ul>
     <li>Galleria Ognissanti 10, 35129, Padova (Italia)</li>
     <li>+39 3401522372</li>
     <li>emanuelebertuol@gmail.com</li>
     <li>Data di nascita: 21/08/1997</li>
     <li>Nazionalità: Italiana
   </ul>
-  
-  <p>Nato a Suzzara, in provincia di Mantova,<br>
-    mi sono trasferito all'età di 2 anni a Malo,<br>
-    in provincia di Vicenza, dove ho trascorso <br>
-    la prima parte della mia infanzia.<br>
-    Da sempre molto curioso ed intraprendente,<br>
-    ho sviluppato una passione per la cucina<br>
-    che mi ha portato alla scelta della scuola <br>
-    alberghiera. 
+    </div>
+  </div>
+  <p><strong class="Biografia">Biografia</strong></p>
+  <div class="testobio">
+  <p>Nato a Suzzara, in provincia di Mantova, mi sono trasferito all'età di 2 anni a Malo,
+    in provincia di Vicenza, dove ho trascorso la prima parte della mia infanzia. <br>
+    Da sempre molto curioso ed intraprendente, ho sviluppato una passione per la ristorazione
+    che mi ha portato alla scelta della scuola alberghiera. <br>Fin da subito, mi sono messo in gioco
+    per sviluppare le competenze che mi sarebbero state poi chieste nel mondo del lavoro, e appena ho
+    avuto l'opportunità ho cominciato subito a lavorare (come poi potrete vedere dalle mie esperienze
+    lavorative). <br>Durante lo stage di 4° superiore ho colto l'occasione per fare una stagione estiva
+    e provare con pelle cosa fosse veramente lavorare nel mio settore (periodo in cui ho scoperto
+    una forte passione per il mondo dei cocktail e del bar), e appena ho finito le scuole superiori,
+    ho colto subito l'occasione di condurre la mia vita autonoma (attualmente vivo per "conto mio" da 4 anni).
+    <br>Oltre a questo, nel tempo mi sono appassionato
+    a svariate tematiche, quali la politica, l'economia, la finanza (il trading finanziario in particolare),
+    la tecnologia (criptovalute in primis) ed ultimamente la programmazione.
+    Sono attualmente iscritto al primo anno di università, frequentando da lavoratore il corso di studi
+    in "Statistica per l'Economia e l'Impresa, percorso Finanza", e ho avuto l'occasione di affrontare
+    le prime tematiche di programmazione (con il  linguaggio C e SQL).<br>
+    Nel mio piccolo, porto avanti una piccola attività di speculazione nel mondo dello sport betting, 
+    riuscendo a trarne più di qualche soddisfazione economica.
   </p>
+  </div>
   
-  <h4 class="EspLav"> Esperienze Lavorative:
+  <div class="EspLavDiv">
+  
+  <h class="EspLav"> Esperienze Lavorative:</h>
+    
+    <div class="lista2">
     <ul>
       
       <a href="#HotelBelvedere"><li>Hotel Belvedere (10/2018-06/2019)</li></a>
@@ -52,6 +176,9 @@
       
       
     </ul>
+    </div>
+    
+  </div>
     
     <h id="HotelBelvedere">Hotel "Belvedere"</h>
     
@@ -187,5 +314,5 @@
       <li>Utilizzo della macchina per la preparazione della caffetteria</li>
       <li>Varie mansioni di pulizia e riordinamento dei tavoli nella sala</li>
     </ul>
-      
-        
+  </body>
+</html>
